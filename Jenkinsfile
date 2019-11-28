@@ -1,12 +1,12 @@
 pipeline {
    agent any
 libraries {
-  lib('Jenkins-sharedLibrary@docs')
+  lib('cal-lib@master')
 }
    stages {
 	stage('Demo') {
           steps {
-            hello 'Yuvi'
+            echo cal(5,4)
           }
         }
    }
