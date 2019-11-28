@@ -1,12 +1,12 @@
 pipeline {
    agent any
 libraries {
-  lib('Jenkins-sharedLibrary@master')
+  lib('Jenkins-sharedLibrary@docs')
 }
    stages {
 	stage('Demo') {
           steps {
-            echo 'Hello'
+            hello 'Yuvi'
           }
         }
    }
