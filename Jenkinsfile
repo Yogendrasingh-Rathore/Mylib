@@ -6,7 +6,7 @@ libraries {
    stages {
 	stage('Demo') {
           steps {
-            echo cal(5,4)
+            hello 'Yuvi'
           }
         }
    }
