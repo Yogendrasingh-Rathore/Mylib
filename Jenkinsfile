@@ -1,7 +1,7 @@
 pipeline {
    agent any
 libraries {
-  lib('Jenkins-sharedLibrary@docs')
+  lib('Jenkins-sharedLibrary@master')
 }
    stages {
 	stage('Demo') {
